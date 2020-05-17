@@ -1,0 +1,4 @@
+CREATE TABLE SHELF ( 
+Shelf_No INT(4) NOT NULL, 
+Shelf_Name VARCHAR(50) NOT NULL, 
+constraint SHELF_PK PRIMARY KEY (Shelf_No) ); 

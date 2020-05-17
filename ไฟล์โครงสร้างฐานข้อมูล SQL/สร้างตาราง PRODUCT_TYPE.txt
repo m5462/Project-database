@@ -1,0 +1,4 @@
+CREATE TABLE PRODUCT_TYPE ( 
+ProductType_ID INT(4) NOT NULL, 
+ProductType_Name VARCHAR(50) NOT NULL, 
+constraint ProductType_PK PRIMARY KEY (ProductType_ID) ); 

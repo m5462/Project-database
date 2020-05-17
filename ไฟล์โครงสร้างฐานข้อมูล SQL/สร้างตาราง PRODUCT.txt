@@ -1,0 +1,10 @@
+CREATE TABLE PRODUCT (
+Product_ID INT(5) NOT NULL, 
+Product_Name VARCHAR(50) NOT NULL, 
+Unit VARCHAR(20), Cost DOUBLE(10,2), 
+Sale_Price DOUBLE(10,2), 
+Stock_Quantity INT(10), 
+ProductType_ID INT(4) REFERENCES PRODUCT_TYPE 
+(ProductType_ID), 
+Shelf_No INT(4) REFERENCES SHELF (Shelf_No), 
+constraint PRODUCT_PK PRIMARY KEY (Product_ID) ); 

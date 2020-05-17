@@ -1,0 +1,13 @@
+CREATE TABLE CUSTOMER ( 
+Cus_ID INT(5) NOT NULL, 
+Cus_Firstname VARCHAR(30) NOT NULL, 
+Cus_Lastname VARCHAR(30) NOT NULL, 
+Cus_Add_No VARCHAR(30), 
+Cus_Add_Soi VARCHAR(100), 
+Cus_Add_Road VARCHAR(50), 
+Cus_Add_District VARCHAR(50), 
+Cus_Add_Province VARCHAR(50), 
+Cus_Add_PostalCode INT(20), 
+Cus_Email VARCHAR(50), 
+Cus_Tel INT(10), 
+constraint Customer_PK PRIMARY KEY (Cus_ID) );

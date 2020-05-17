@@ -1,0 +1,5 @@
+CREATE TABLE BILL_DETAIL ( 
+Bill_No INT(5) REFERENCES BILL (Bill_No), 
+Product_ID INT(5) REFERENCES PRODUCT (Product_ID), 
+Sale_Quantity INT(10) , 
+constraint BillDetail_PK PRIMARY KEY (Bill_No, Product_ID) ); 

@@ -1,0 +1,8 @@
+CREATE TABLE EMPLOYEE ( 
+Emp_ID INT(5) NOT NULL, 
+Emp_Firstname VARCHAR(30) NOT NULL, 
+Emp_Lastname VARCHAR(30) NOT NULL, 
+Emp_Tel INT(10), 
+Emp_Salary DOUBLE(10,2), 
+constraint Employee_PK PRIMARY KEY (Emp_ID) 
+); 

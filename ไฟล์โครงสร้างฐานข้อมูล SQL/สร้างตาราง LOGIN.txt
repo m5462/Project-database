@@ -1,0 +1,7 @@
+CREATE TABLE User (
+ID INT(5) NOT NULL,
+Username VARCHAR(50) NOT NULL,
+Password INT(5) NOT NULL,
+Name VARCHAR(50) NOT NULL,
+Level VARCHAR(50) NOT NULL,
+constraint Customer_PK PRIMARY KEY (User_ID) );

@@ -1,0 +1,7 @@
+CREATE TABLE BILL ( 
+Bill_No INT(5) NOT NULL, 
+Bill_Date DATE , 
+Cus_ID INT(5) REFERENCES CUSTOMER (Cus_ID), 
+Emp_ID INT(5) REFERENCES EMPLOYEE (Emp_ID), 
+constraint BILL_PK PRIMARY KEY (Bill_No) 
+); 
